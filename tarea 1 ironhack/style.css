@@ -1,0 +1,153 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.extra-rectangle {
+    background-color: #f2dede; /* Rojo claro */
+    padding: 20px;
+    text-align: center;
+}
+
+.menu {
+    float: left;
+    width: 25%;
+    background-color: rgb(236, 241, 238);
+    padding: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    margin-bottom: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(12, 9, 9);
+}
+
+.menu ul li a:hover {
+    color: rgb(77, 37, 234);
+}
+
+.content {
+    float: right;
+    width: 50%; /* Reducido a 50% para dar espacio al mosaico de imágenes adicionales */
+    padding: 20px;
+}
+
+.image-container {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.image-container p {
+    margin: 0;
+}
+
+.additional-images {
+    clear: both; /* Asegura que el mosaico de imágenes adicionales se coloque debajo */
+}
+
+.additional-images .image-container {
+    width: calc(33.333% - 20px); /* 33.333% para dividir el ancho en tres columnas */
+    margin-right: 20px;
+    float: left;
+}
+
+.additional-images .image-container:nth-child(3n) {
+    margin-right: 0; /* Elimina el margen derecho del tercer elemento para evitar desbordamiento */
+}
+
+.additional-images .image-container:nth-child(odd) {
+    margin-bottom: 20px; /* Añade margen inferior a los elementos en posición impar */
+}
+
+.additional-images .image-container:nth-child(even) p {
+    margin-top: 20px; /* Añade margen superior a los párrafos de elementos en posición par */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.extra-rectangle {
+    background-color: #f2dede; /* Rojo claro */
+    padding: 20px;
+    text-align: center;
+}
+
+.menu {
+    float: left;
+    width: 25%;
+    background-color: white;
+    padding: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    margin-bottom: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul li a:hover {
+    color: blue;
+}
+
+.content {
+    float: right;
+    width: 75%;
+    padding: 20px;
+}
+
+.image-container {
+    display: inline-block; /* Cambiado de block a inline-block */
+    width: 30%;
+    /* margin-right: 3%; */
+    height: 350px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid red;;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.image-container p {
+    margin: 0;
+}
+.
